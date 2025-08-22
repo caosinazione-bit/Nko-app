@@ -4,7 +4,7 @@ import logging
 from google import genai
 
 # Inizializza il client Gemini
-client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY"))
+client = genai.Client(api_key=os.environ.get("AIzaSyBtyhf8Cs21XYi3AUAK4ci_9qBb0UbSJrA"))
 
 # Lista di temi casuali per i testi di curiosità
 RANDOM_TOPICS = [
